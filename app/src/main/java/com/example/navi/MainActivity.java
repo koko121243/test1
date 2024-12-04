@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
             if(item.getItemId() == R.id.home){
                 replaceFragment(new HomeFragment());
             }
+
             else if(item.getItemId() == R.id.ic)replaceFragment(new IcFragment());
             else if(item.getItemId() == R.id.time)replaceFragment(new TimeFragment());
 
